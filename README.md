@@ -7,15 +7,15 @@ User können sich anmelden, Produkte auswählen, einen Warenkorb nutzen.
 
 ### Login
 
-![Login](/public/login.PNG)
+![Login](public/login.PNG)
 
 ### Landing Page
 
-![Landing Page](/public/slide.PNG)
+![Landing Page](public/slide.PNG)
 
 ### Cart
 
-![Cart][/public/cart.PNG]
+![Cart][public/cart.PNG]
 
 ## Features
 

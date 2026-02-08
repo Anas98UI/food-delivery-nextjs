@@ -45,6 +45,12 @@ model ProductOption {
 
   @@index([productId])
 }
+enum OrderStatus {
+  pending
+  paid
+  shipped
+  canceled
+}
 
 model Order {
   id        String   @id @default(uuid())
@@ -53,6 +59,7 @@ model Order {
   products  Json[] 
   intent_id String?  @unique
   userId    String
+  status    OrderStatus  @default(pending)
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 

@@ -15,7 +15,7 @@ User können sich anmelden, Produkte auswählen, einen Warenkorb nutzen.
 
 ### Cart
 
-![Cart](./public/cart.PNG)
+![Cart][/public/cart.PNG]
 
 ## Features
 
@@ -47,3 +47,6 @@ User können sich anmelden, Produkte auswählen, einen Warenkorb nutzen.
 - **ORM:** Prisma
 - **State:** React Hooks
 - **Storage:** localStorage (Cart)
+
+
+[/public/cart.PNG]: /public/cart.PNG

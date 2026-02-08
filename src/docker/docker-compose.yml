@@ -1,0 +1,18 @@
+services:
+  db:
+    image: mysql:8
+    restart: always
+    shm_size: 128mb
+    environment:
+      # ⬇️ RICHTIGE MySQL-Variablen (nicht Postgres!)
+      MYSQL_ROOT_PASSWORD: mypassword
+      MYSQL_DATABASE: mydb
+      MYSQL_USER: myuser           # optional für extra User
+      MYSQL_PASSWORD: mypassword   # optional für extra User
+    ports:
+      - "3306:3306"               # ⬇️ Beides MySQL-Port!
+    volumes:
+      - mysql_data:/var/lib/mysql  # Wichtig: Daten speichern!
+
+volumes:
+  mysql_data:

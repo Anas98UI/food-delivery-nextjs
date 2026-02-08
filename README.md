@@ -15,7 +15,7 @@ User können sich anmelden, Produkte auswählen, einen Warenkorb nutzen.
 
 ### Cart
 
-![Cart](/public/Cart.PNG)
+![Cart](/public/cart.PNG)
 
 ## Features
 

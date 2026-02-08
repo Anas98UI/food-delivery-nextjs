@@ -38,9 +38,7 @@ User können sich anmelden, Produkte auswählen, einen Warenkorb nutzen.
 - Mobile-first Ansatz
 - Optimiert für Desktop & Mobile
 
----
-
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Framework:** Next.js (App Router)
 - **Styling:** Tailwind CSS
